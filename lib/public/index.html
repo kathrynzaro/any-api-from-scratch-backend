@@ -8,40 +8,40 @@
     <title>Astro Charts</title>
   </head>
   <body>
-    <header class="bg-gray-700 text-white p-4">
-      <h1 class="text-lg font-semibold">Charts</h1>
-    </header>
-    <main class="p-4 w-1/2 m-auto">
-      This API uses a list of Kat's friend's signs as its resource. The routes are
-      as follows:
-      <table class="table border-2 mt-4">
-        <thead class="table-header-group border-2">
+    <main>
+      <h1>Astro Charts</h1>
+      <h2>
+        This API uses a list of Kat's friend's astrological charts (incl. sun, moon, rising, and venus) as its resource. The routes are
+        as follows:
+      </h2>
+      <table>
+        <thead>
           <tr>
-            <th class="table-cell p-3">Route</th>
-            <th class="table-cell p-3">Method</th>
-            <th class="table-cell p-3 w-40">Description</th>
-            <th class="table-cell p-3">Example</th>
+            <th>Route</th>
+            <th>Method</th>
+            <th class="description">Description</th>
+            <th>Example</th>
           </tr>
         </thead>
-        <tbody class="table-row-group">
-          <tr class="border-2">
-            <td class="table-cell p-3"><pre>/charts</pre></td>
-            <td class="table-cell p-3 text-center">GET</td>
-            <td class="table-cell p-3">Gets a list of peoples' names and ids</td>
-            <td class="table-cell p-3">
-              <a href="/charts" target="_blank" class="text-blue-700"
+        <tbody>
+          <tr>
+            <td>/charts</td>
+            <td>GET</td>
+            <td class="description">Gets a list of peoples' names and ids</td>
+            <td class="link">
+              <a href="/charts" target="_blank"
                 >List Charts</a
               >
             </td>
           </tr>
-          <tr class="border-2">
-            <td class="table-cell p-3"><pre>/charts/:id</pre></td>
-            <td class="table-cell p-3 text-center">GET</td>
-            <td class="table-cell p-3">
-              Returns the detail about the chart matching the id in the parameter
+          <tr>
+            <td>/charts/:id</td>
+            <td>GET</td>
+            <td>
+              Returns the detail about the chart of the person who matches the id in the parameter.
             </td>
-            <td class="table-cell p-3">
-              <a href="/charts/1" target="_blank" class="text-blue-700"
+            <td class="link">
+              <a href="/charts/1" target="_blank"
                 >Get Chart 1</a
               >
             </td>
