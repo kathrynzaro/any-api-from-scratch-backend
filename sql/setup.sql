@@ -20,4 +20,5 @@ INSERT INTO charts (name, age, birthday, sun, moon, rising, venus) VALUES
 ('Camille', 31, 'October 30, 1990', 'Scorpio', 'Pisces', 'Virgo', 'Scorpio'),
 ('Rob', 31, 'December 10, 1990', 'Sagittarius', 'Libra', 'Cancer', 'Sagittarius'),
 ('Raquel', 63, 'August 23, 1958', 'Leo', 'Sagittarius', 'Pisces', 'Leo'),
-('John', 67, 'May 25, 1955', 'Gemini', 'Leo', 'Scorpio', 'Taurus');
+('John', 67, 'May 25, 1955', 'Gemini', 'Leo', 'Scorpio', 'Taurus'),
+('Kashi', 29, 'December 5, 1992', 'Sagittarius', 'Aries', 'Gemini', 'Capricorn');
